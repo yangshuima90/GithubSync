@@ -17,5 +17,5 @@
 
 抖音极速版重写05 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
 
-[mitm]
+[MITM]
 hostname = *.amemv.com
