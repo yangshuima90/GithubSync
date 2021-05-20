@@ -10,7 +10,7 @@
 
 百度极速获取Cookie:点击"任务"即可
 
-https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
+https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d url script-request-header https://raw.githubusercontent.com/yangshuima90/GithubSync/main/BaiDu/baidu.js
 
 支持BoxJs多账号，需手动填写，用&或者换行隔开
 
