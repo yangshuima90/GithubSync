@@ -3,19 +3,19 @@
 #!system=ios
 
 [Script]
-抖音极速版 = type=cron,cronexp=*/20 * * * *,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版 = type=cron,cronexp=*/20 * * * *,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写00 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写00 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写01 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写01 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写02 = type=http-request,pattern=luckycat/aweme/v1/task/done/excitation_ad_treasure_box?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写02 = type=http-request,pattern=luckycat/aweme/v1/task/done/excitation_ad_treasure_box?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写03 = type=http-request,pattern=uckycat/aweme/v1/task/done/excitation_ad?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写03 = type=http-request,pattern=uckycat/aweme/v1/task/done/excitation_ad?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写04 = type=http-request,pattern=luckycat/aweme/v1/task/done/read?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写04 = type=http-request,pattern=luckycat/aweme/v1/task/done/read?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-抖音极速版重写05 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+抖音极速版重写05 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
 [MITM]
 hostname = *.amemv.com
