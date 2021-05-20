@@ -14,12 +14,12 @@
 hostname = *.amemv.com
 #圈x
 [rewrite local]
-luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
-luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
-luckycat/aweme/v1/task/done/treasure_task? url script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
-luckycat/aweme/v1/task/done/excitation_ad_treasure_box? url script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
-luckycat/aweme/v1/task/done/excitation_ad? url script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
-luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/bluesmallpig/Surge/master/Scripts/dyjsb_modify.js
+luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+luckycat/aweme/v1/task/done/read? url script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+luckycat/aweme/v1/task/done/treasure_task? url script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+luckycat/aweme/v1/task/done/excitation_ad_treasure_box? url script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+luckycat/aweme/v1/task/done/excitation_ad? url script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
+luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://github.com/yangshuima90/GithubSync/edit/main/DouYin/douyin.js
 */
 const jsname = '抖音极速版'
 const $ = Env(jsname)
