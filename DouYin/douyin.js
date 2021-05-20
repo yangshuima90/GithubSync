@@ -20,6 +20,7 @@ luckycat/aweme/v1/task/done/treasure_task? url script-request-header https://raw
 luckycat/aweme/v1/task/done/excitation_ad_treasure_box? url script-request-header https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 luckycat/aweme/v1/task/done/excitation_ad? url script-request-header https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+*/
 const jsname = '抖音极速版'
 const $ = Env(jsname)
 const notify = $.isNode() ? require('./sendNotify') : '';
