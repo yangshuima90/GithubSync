@@ -6,21 +6,16 @@
 百度极速版Cookie = type=http-request,pattern=https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/BaiDu/baidu.js
 
 京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/JingXi/jx_tokens.js
-  京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/JingXi/jx_tokens.js
-  京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/JingXi/jx_tokens.js
+京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/JingXi/jx_tokens.js
+京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/JingXi/jx_tokens.js
 
 中青极速版签到Cookie = type=http-request https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/YouTh/youth.js
 
 抖音极速版Cookie.01 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
-
 抖音极速版Cookie.02 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
-
 抖音极速版Cookie.03 = type=http-request,pattern=luckycat/aweme/v1/task/done/excitation_ad_treasure_box?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
-
 抖音极速版Cookie.04 = type=http-request,pattern=uckycat/aweme/v1/task/done/excitation_ad?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
-
 抖音极速版Cookie.05 = type=http-request,pattern=luckycat/aweme/v1/task/done/read?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
-
 抖音极速版Cookie.06 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
 [MITM]
