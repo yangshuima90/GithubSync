@@ -18,4 +18,4 @@
 抖音极速版Cookie.06 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
 [MITM]
-hostname = haokan.baidu.com,*.amemv.com
+hostname = haokan.baidu.com,ios.baertt.com, kd.youth.cn, kandian.wkandian.com,*.amemv.com
