@@ -1,17 +1,19 @@
-#!name= 中青极速版
-#!desc= 中青极速版获取Cookie
+#!name= Cookie
+#!desc= 该模块获取抖音极速版,中青极速版获取Cookie
 #!system=ios
 
 [Script]
-中青看点 = type=cron,cronexp=*/10 5-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
+抖音极速版Cookie.01 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-中青看点浏览赚 = type=cron,cronexp=20 5 10 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js,wake-system=1,timeout=1800,,script-update-interval=0
+抖音极速版Cookie.02 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-#中青看点阅读 = type=cron,cronexp=10 */2 * * *,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js,wake-system=1,timeout=3600,,script-update-interval=0
+抖音极速版Cookie.03 = type=http-request,pattern=luckycat/aweme/v1/task/done/excitation_ad_treasure_box?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
+抖音极速版Cookie.04 = type=http-request,pattern=uckycat/aweme/v1/task/done/excitation_ad?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
+抖音极速版Cookie.05 = type=http-request,pattern=luckycat/aweme/v1/task/done/read?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
-
+抖音极速版Cookie.06 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
 
 中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
 
@@ -33,4 +35,4 @@
 
 
 [MITM]
-hostname = kd.youth.cn, kandian.wkandian.com, ios.baertt.com，kandian.wkandian.com
+hostname = *.amemv.com, kd.youth.cn, kandian.wkandian.com, ios.baertt.com，kandian.wkandian.com
