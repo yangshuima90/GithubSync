@@ -1,0 +1,19 @@
+#!name= 抖音极速版
+#!desc= 该模块获取抖音极速版获取Cookie
+#!system=ios
+
+[Script]
+抖音极速版签到 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+抖音极速版签到 = type=http-request,pattern=luckycat/aweme/v1/task/done/treasure_task?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+抖音极速版宝箱 = type=http-request,pattern=luckycat/aweme/v1/task/done/excitation_ad_treasure_box?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+抖音极速版宝箱 = type=http-request,pattern=uckycat/aweme/v1/task/done/excitation_ad?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+抖音极速版宝箱广告 = type=http-request,pattern=luckycat/aweme/v1/task/done/read?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+抖音极速版宝箱广告 = type=http-request,pattern=luckycat/aweme/v1/task/walk/step_submit?,script-path=https://raw.githubusercontent.com/yangshuima90/GithubSync/main/DouYin/douyin.js
+
+[MITM]
+hostname = *.amemv.com 
