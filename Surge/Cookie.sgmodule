@@ -1,5 +1,5 @@
 #!name= Cookie
-#!desc= 该模块获取抖音极速版,中青极速版获取Cookie
+#!desc= 该模块获取百度极速版,京喜token,抖音极速版,中青极速版获取Cookie
 #!system=ios
 
 [Script]
